@@ -1,4 +1,4 @@
-# Name : Nicola
+# Name: Nicola
 # Surname: Phiri
 # Date: 20/02/2025
 # Project: Problem-Solving in Programming Subtask 1
