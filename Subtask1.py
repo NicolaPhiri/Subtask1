@@ -1,6 +1,6 @@
 # Name : Nicola
 # Surname: Phiri
-# Date: 25/02/2025
+# Date: 20/02/2025
 # Project: Problem-Solving in Programming Subtask 1
 # Purpose: Adding stock, Customer order, and low-stock alert
 
