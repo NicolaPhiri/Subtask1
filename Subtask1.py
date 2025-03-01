@@ -2,7 +2,7 @@
 # Surname: Phiri
 # Date: 20/02/2025
 # Project: Problem-Solving in Programming Subtask 1
-# Purpose: Adding stock, Customer order, and low-stock alert
+# Purpose: Adding stock, Customer order, and low-stock notification
 
 arrival_quantity = int(input("Please enter the shipments that have arrived:" + " "))
 if arrival_quantity < 5 or arrival_quantity > 50:
