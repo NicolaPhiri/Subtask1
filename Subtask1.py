@@ -14,7 +14,7 @@ else:
     #creating a condition for the customer order
     if customer_order in range (0,11):
         print("The customer has ordered" + " " + str(customer_order) + " " + "kits")
-    else 
+    else:
         print("Please enter a number between 1 and 10")
 
 
