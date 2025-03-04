@@ -22,8 +22,9 @@ def adding_stock():
     global arrival_quantity, customer_order
     current_stock_level = arrival_quantity  # Stock starts with the shipment received
     print(f"The current stock level after shipment arrival: {current_stock_level}")
+    # Insufficient stock alert
     if customer_order > current_stock_level:
-        print("There is not enough stock to complete this order.")
+        print("This order cannot be processed due to insufficient stock.")
     else:
         current_stock_level = current_stock_level - customer_order  # Deduct ordered stock
     print(f"The current stock level after a customer has ordered: {current_stock_level}")
