@@ -12,10 +12,10 @@ else:
     # ask for customer order
     customer_order = int(input("Please enter how much stock the customer ordered: "))
     #creating a condition for the customer order
-    if customer_order in range (1,10):
-    print("The customer has ordered" + " " + str(customer_order) + " " + "kits")
+    if customer_order in range (0,11):
+        print("The customer has ordered" + " " + str(customer_order) + " " + "kits")
     else 
-    print("Please enter a number between 1 and 10")
+        print("Please enter a number between 1 and 10")
 
 
 def adding_stock():
