@@ -31,6 +31,7 @@ def adding_stock():
     # Low stock notice
     if current_stock_level < 10:
         print("Please order more kits.")
+
 # Call function
 
 
